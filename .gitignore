@@ -1,3 +1,10 @@
 node_modules/
 dist/
 test/screenshot-*.png
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
